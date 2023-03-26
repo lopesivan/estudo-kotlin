@@ -1,0 +1,3 @@
+interface Mamifero {
+    fun falar()
+}
