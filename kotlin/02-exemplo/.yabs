@@ -1,11 +1,5 @@
 return {
   tasks = {
-    ["🔧 Init"] = {
-      type = "lua",
-      command = function()
-        vim.cmd.terminal("make init")
-      end,
-    },
     ["🛠️ Build"] = {
       type = "lua",
       command = function()
@@ -18,22 +12,10 @@ return {
         vim.cmd.terminal("make run")
       end,
     },
-    ["🧪 Test"] = {
-      type = "lua",
-      command = function()
-        vim.cmd.terminal("./gradlew test")
-      end,
-    },
-    ["📦 Install"] = {
-      type = "lua",
-      command = function()
-        vim.cmd.terminal("./gradlew installDist")
-      end,
-    },
     ["🧹 Clean"] = {
       type = "lua",
       command = function()
-        vim.cmd.terminal("./gradlew clean")
+        vim.cmd.terminal("make clean")
       end,
     },
   },
