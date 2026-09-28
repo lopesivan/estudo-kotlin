@@ -1,0 +1,11 @@
+{
+    "app/src/main/kotlin/br/eng/ivanlopes/lucasneto/App.kt": {
+        "type": "app"
+    },
+    "./.projections.json": {
+        "type": "dit"
+    },
+    "README.md": {
+        "type": "doc"
+    }
+}
