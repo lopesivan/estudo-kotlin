@@ -1,0 +1,22 @@
+return {
+  tasks = {
+    ["🛠️ Build"] = {
+      type = "lua",
+      command = function()
+        vim.cmd.terminal("make build")
+      end,
+    },
+    ["🚀 Run"] = {
+      type = "lua",
+      command = function()
+        vim.cmd.terminal("make run")
+      end,
+    },
+    ["🧹 Clean"] = {
+      type = "lua",
+      command = function()
+        vim.cmd.terminal("make clean")
+      end,
+    },
+  },
+}
