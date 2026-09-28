@@ -1,14 +1,14 @@
-package br.eng.ivanlopes.lucasneto
-
 class App(
     var nome: String = "Anônimo",
     var versao: Int = 1
-) {
+)
+{
     val greeting: String
         get() = "Olá, $nome! (v$versao)"
 }
 
-fun main() {
+fun main()
+{
     val app1 = App()                       // Sem parâmetros
     val app2 = App("Lucas")                // Apenas nome
     val app3 = App("Lucas", 2)             // Nome e versão
