@@ -1,7 +1,12 @@
+class App(var nome: String) {
+    val greeting: String
+        get() {
+            return "Hello World! Eu sou o $nome"
+        }
+}
+
 fun main() {
-    val calc = Calculadora()
-
-    val resultado = calc.somar(2, 2)
-
-    println("Resultado: $resultado")
+    // Agora é obrigatório passar o nome ao instanciar
+    val meuApp = App("Ivan")
+    println(meuApp.greeting)
 }
