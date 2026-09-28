@@ -1,0 +1,11 @@
+{
+    "src/main/kotlin/Main.kt": {
+        "type": "main"
+    },
+    "./.projections.json": {
+        "type": "dit"
+    },
+    "README.md": {
+        "type": "doc"
+    }
+}
